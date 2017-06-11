@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "canonical"
+  ],
+  "rules": {
+    "arrow-body-style": [
+      "error",
+      "as-needed"
+    ],
+    "filenames/match-regex": [
+      2,
+      "^[A-Z]?[a-z]+(?:[A-Z][a-z]+)*(\\.[a-z]+)*$",
+      false
+    ],
+    "no-restricted-syntax": "off"
+  }
+}

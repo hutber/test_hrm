@@ -1,0 +1,80 @@
+input.mbsc-comp, .mbsc-mobiscroll  .mbsc-cal-day-m {
+  display: none;
+}
+.mbsc-mobiscroll .mbsc-fr-w {
+  background: transparent;
+}
+.mbsc-cal table {
+//height: auto;
+}
+.mbsc-mobiscroll .mbsc-cal th {
+  //height: 30px;
+}
+
+.mbsc-mobiscroll .mbsc-fr-w, .mbsc-mobiscroll .mbsc-fr-btn, .mbsc-mobiscroll .mbsc-sc-itm, .mbsc-mobiscroll .mbsc-range-btn, .mbsc-mobiscroll .mbsc-cal-tabs .mbsc-cal-tab-i, .mbsc-mobiscroll .mbsc-cal-btn-txt, .mbsc-mobiscroll .mbsc-cal th {
+  color: #FFF;
+  border-radius: 20px;
+}
+
+.mbsc-mobiscroll  .mbsc-cal-day {
+  border: none;
+}
+
+.mbsc-cal-days-c {
+  border-bottom: 1px solid #1ba0e3;
+  margin-bottom: 10px;
+}
+
+.mbsc-cal-day-diff .mbsc-cal-day-i {
+  opacity: 1;
+  color: #98939d;
+}
+
+.mbsc-mobiscroll .mbsc-cal-hl-now .mbsc-cal-today, .mbsc-mobiscroll .mbsc-cal .mbsc-cal-sc-sel .mbsc-cal-sc-cell-i, .mbsc-mobiscroll .mbsc-cal .mbsc-cal-day-sel .mbsc-cal-day-i {
+  background-color: transparent;
+}
+
+.mbsc-cal-day.mbsc-cal-day-sel.mbsc-cal-today.mbsc-cal-day-marked.mbsc-cal-day-last.mbsc-cal-day-v.mbsc-fr-btn-e.mbsc-fr-btn-nhl .mbsc-cal-day-fg {
+  background-color: #4bbde8;
+}
+
+.mbsc-cal-day .mbsc-cal-day-i {
+  font-size: 18px;
+}
+
+.mbsc-cal-day-fg {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  font-family: Lato;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  transform: translate3d(-50%, -50%, 0);
+  -webkit-transform: translate3d(-50%, -50%,0);
+    line-height: 2.6125em;
+}
+
+.mbsc-mobiscroll .mbsc-cal-hl-now .mbsc-cal-today .mbsc-cal-day-fg, .mbsc-cal-day.mbsc-cal-day-v.mbsc-fr-btn-e.mbsc-fr-btn-nhl.mbsc-cal-day-sel .mbsc-cal-day-fg {
+  border-radius: 40px;
+  background-color: #2253eb;
+}
+
+.mbsc-mobiscroll .mbsc-cal-hl-now .mbsc-cal-day-marked .mbsc-cal-day-fg {
+  border-radius: 40px;
+  background-color: #02E9FB;
+}
+
+.mbsc-cal-day-inv.mbsc-cal-day .mbsc-cal-day-fg {
+  opacity: .8
+}
+
+.mbsc-cal-sc-m-cell {
+  background-color: #2253eb;
+  color: #FFF;
+}
+.mbsc-cal .mbsc-cal-sc-row .mbsc-fr-btn-d {
+  background-color: #00b3ec;
+  opacity: 1;
+}

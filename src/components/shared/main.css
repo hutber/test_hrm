@@ -1,0 +1,93 @@
+// Immutable items
+@import "_phonegapReset.css";
+//@import "fixed/Mixins";
+
+// Imports
+@import "vars.css";
+
+//Body/Html
+html, body, body > div, body > div > div {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: linear-gradient(to bottom, $bgTop 0%, $bgBottom 100%);
+  color: #FFF;
+  text-align: center;
+  font-family: $textThin;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+#app, #app, .app-shell {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: block;
+}
+
+header {
+  position: absolute;
+}
+
+.contentArea {
+  margin: 30px 20px;
+  height: calc(100vh - $menuHeight - $menuHeight - 60px);
+  overflow-y: scroll;
+}
+
+.contentAreaFullWidth {
+  height: calc(100vh - $menuHeight - $menuHeight);
+  overflow-y: scroll;
+}
+
+#app-content {
+  position: relative;
+  margin: 2vh 2vw;
+  display: block;
+}
+
+.verticalAlignParent {
+  position: fixed;
+  height: calc(100vh - $menuHeight - $menuHeight);
+  width: 100vw;
+  top: $menuHeight;
+  left: 0;
+}
+
+.verticalAlign {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flexWithChildren {
+  display: flex;
+  flex-direction: column;
+
+  & > * {
+    flex-grow: 1;
+  }
+
+  &.flexWithChildrenLTR {
+    flex-direction: row;
+  }
+}
+
+
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: normal;
+  font-family: $textLight;
+}
+
+p {
+  margin: 10px 0;
+}
